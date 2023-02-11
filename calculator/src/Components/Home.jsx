@@ -28,10 +28,6 @@ const Home = () => {
       setResult('Error')
     }
   }
-
-
-
-
   return (
     <>
     <h1>Calculator</h1>
@@ -39,7 +35,6 @@ const Home = () => {
       <form action="">
         <input type="text" value={result} ref={inputRef} />
       </form>
-
       <div className="keypad">
         <button id='clear' onClick={handleClear}>Clear</button>
         <button id="backspace" onClick={backspace}>Back</button>
